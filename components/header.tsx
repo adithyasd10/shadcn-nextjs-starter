@@ -7,10 +7,8 @@ import { Button } from '@/components/ui/button'
 import React from 'react'
 
 const menuItems = [
-  { name: 'Features', href: '#link' },
-  { name: 'Solution', href: '#link' },
-  { name: 'Pricing', href: '#link' },
-  { name: 'About', href: '#link' },
+  { name: 'Home', href: '/' },
+  { name: 'About', href: '/about' },
 ]
 
 export const HeroHeader = () => {

@@ -19,17 +19,16 @@ export default function HeroSection() {
               {/* Left Text Block */}
               <div className="mx-auto max-w-lg text-center lg:ml-0 lg:w-1/2 lg:text-left">
                 <h1 className="mt-8 max-w-2xl text-balance text-5xl font-medium md:text-6xl lg:mt-16 xl:text-7xl">
-                  Ship 10x Faster with NS
+                  Lights. Camera. Popcorn Flix!
                 </h1>
                 <p className="mt-8 max-w-2xl text-pretty text-lg">
-                  Highly customizable components for building modern websites
-                  and applications that look and feel the way you mean it.
+                  Discover reviews, ratings, and recommendations to help you pick your next favorite movie.
                 </p>
 
                 <div className="mt-12 flex flex-col items-center justify-center gap-2 sm:flex-row lg:justify-start">
                   <Button asChild size="lg" className="px-5 text-base">
                     <Link href="#link">
-                      <span className="text-nowrap">Start Building</span>
+                      <span className="text-nowrap">Reviews</span>
                     </Link>
                   </Button>
                   <Button
@@ -40,7 +39,7 @@ export default function HeroSection() {
                     className="px-5 text-base"
                   >
                     <Link href="#link">
-                      <span className="text-nowrap">Request a demo</span>
+                      <span className="text-nowrap">Dive in</span>
                     </Link>
                   </Button>
                 </div>
