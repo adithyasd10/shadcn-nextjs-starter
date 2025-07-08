@@ -27,7 +27,7 @@ export default function RootLayout({
     <html lang="en" className="dark bg-black">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black text-white`}
-      > <HeroSection/>
+      > 
         {children}
       </body>
     </html>

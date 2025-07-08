@@ -27,7 +27,7 @@ export default function HeroSection() {
 
                 <div className="mt-12 flex flex-col items-center justify-center gap-2 sm:flex-row lg:justify-start">
                   <Button asChild size="lg" className="px-5 text-base">
-                    <Link href="#link">
+                    <Link href="/reviews">
                       <span className="text-nowrap">Reviews</span>
                     </Link>
                   </Button>
@@ -38,7 +38,7 @@ export default function HeroSection() {
                     variant="ghost"
                     className="px-5 text-base"
                   >
-                    <Link href="#link">
+                    <Link href="/reviews">
                       <span className="text-nowrap">Dive in</span>
                     </Link>
                   </Button>
