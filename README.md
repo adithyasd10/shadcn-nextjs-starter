@@ -1,18 +1,46 @@
-# My ShadCN UI App
+# 🎬 Next.js 14 + Tailwind CSS Movie App (IMDB Clone)
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app) and enhanced with [ShadCN UI](https://ui.shadcn.com) for beautiful, customizable components.
+This project is a **Movie App inspired by IMDB**, built using the latest technologies:
+
+- **Next.js 14** (App Router, Server Components, faster builds)
+- **Tailwind CSS** for modern, utility-first styling
+- **ShadCN UI**, a powerful component library built on top of Radix UI and Tailwind CSS
 
 ---
 
-## Getting Started
+## 📚 About This Project
 
-Install dependencies:
+I’m building this app as part of my learning journey in:
+
+✅ Next.js 14’s new features like the App Router and layouts  
+✅ ShadCN UI — studying how to integrate elegant components and customize them for unique designs  
+✅ Tailwind CSS utility classes for responsive, dark-themed UI  
+✅ Building a real-world app structure similar to IMDB, including:
+
+- Dynamic routing for movie details
+- Review pages
+- Navigation menus
+- Progressive blurs and glassmorphism effects
+- Dark theme layouts
+- Responsive design for mobile and desktop
+
+This project is designed for **beginners** wanting to learn modern React and Next.js development with real, practical examples.
+
+---
+
+## 🚀 Getting Started
+
+Install dependencies using your favorite package manager:
 
 ```bash
+# npm
 npm install
-# or
+
+# yarn
 yarn install
-# or
+
+# pnpm
 pnpm install
-# or
+
+# bun
 bun install
