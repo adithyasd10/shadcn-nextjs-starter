@@ -28,7 +28,7 @@ export default function ReviewsPage() {
           <NavigationMenuItem className="px-4">
             <NavigationMenuLink
               href="/"
-              className="text-white hover:text-gray-300 transition-colors text-sm md:text-2xl xl:text-3xl transition-all duration-300 ease-in-out"
+              className="text-white hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-emerald-400 hover:to-green-500 transition-colors text-sm md:text-2xl xl:text-3xl transition-all duration-300 ease-in-out"
             >
               Home
             </NavigationMenuLink>
@@ -36,7 +36,7 @@ export default function ReviewsPage() {
           <NavigationMenuItem>
             <NavigationMenuLink
               href="/about"
-              className="text-white hover:text-gray-300 transition-colors md:text-2xl xl:text-3xl transition-all duration-300 ease-in-out"
+              className="text-white hover:bg-clip-text hover:text-transparent hover:bg-gradient-to-r hover:from-emerald-400 hover:to-green-500 transition-colors md:text-2xl xl:text-3xl transition-all duration-300 ease-in-out"
             >
               About
             </NavigationMenuLink>
