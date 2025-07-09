@@ -13,7 +13,13 @@ This project is a **Movie App inspired by IMDB**, built using the latest technol
 > ⚠️ **This project is currently under development.**  
 > Features and UI are being actively built and refined.
 
+### 🔥 Preview Screenshots
+
 ![IMDB Clone Preview](https://github.com/adithyasd10/shadcn-nextjs-starter/blob/main/public/Imdb-clone.png)
+
+![IMDB Clone Preview 2](https://github.com/adithyasd10/shadcn-nextjs-starter/blob/main/public/Imdb-clone2.png)
+
+![IMDB Clone Preview 3](https://github.com/adithyasd10/shadcn-nextjs-starter/blob/main/public/Imdb-clone3.png)
 
 ---
 
