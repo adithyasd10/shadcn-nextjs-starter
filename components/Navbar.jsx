@@ -4,11 +4,10 @@ import {
   NavigationMenuItem,
   NavigationMenuLink,
 } from "@/components/ui/navigation-menu";
-import { useSearchParams } from "next/navigation";
+import { usePathname } from "next/navigation";
 
 export default function Navbar() {
-  const searchParams = useSearchParams();
-  const genre = searchParams.get("genre");
+  const pathname = usePathname();
 
   return (
     <div
@@ -24,7 +23,6 @@ export default function Navbar() {
         border-b border-grey/40
         border-t border-grey/40
         z-50
-        
       "
     >
       <NavigationMenu>
@@ -32,7 +30,7 @@ export default function Navbar() {
           {/* Trending */}
           <NavigationMenuItem>
             <NavigationMenuLink
-              href="/?genre=fetchTrending"
+              href="/trending"
               className={`
                 text-white
                 font-semibold
@@ -49,7 +47,7 @@ export default function Navbar() {
                 hover:underline-offset-8
                 hover:decoration-4
                 hover:decoration-emerald-400
-                ${genre === 'fetchTrending' ? 
+                ${pathname === '/trending' ? 
                   'bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 to-green-500 underline underline-offset-8 decoration-4 decoration-emerald-400' 
                   : ''
                 }
@@ -62,7 +60,7 @@ export default function Navbar() {
           {/* Top Rated */}
           <NavigationMenuItem>
             <NavigationMenuLink
-              href="/?genre=fetchTopRated"
+              href="/toprated"
               className={`
                 text-white
                 font-semibold
@@ -79,7 +77,7 @@ export default function Navbar() {
                 hover:underline-offset-8
                 hover:decoration-4
                 hover:decoration-emerald-400
-                ${genre === 'fetchTopRated' ? 
+                ${pathname === '/toprated' ? 
                   'bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 to-green-500 underline underline-offset-8 decoration-4 decoration-emerald-400' 
                   : ''
                 }
