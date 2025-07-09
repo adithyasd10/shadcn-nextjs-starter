@@ -1,19 +1,23 @@
-import ProgressiveBlur from '@/components/ui/progressive-blur';
+'use client';
 
-export default function NavbarWithBlur() {
+import Link from 'next/link';
+import { useSearchParams } from 'next/navigation';
+
+export default function NavbarItem({ title, param }) {
+  const searchParams = useSearchParams();
+  const genre = searchParams.get('genre');
   return (
-    <div className="relative">
-      {/* Progressive Blur behind navbar */}
-      <ProgressiveBlur
-        direction="bottom"
-        blurLayers={6}
-        blurIntensity={2}
-        className="absolute top-0 left-0 w-full h-16 z-0"
-      />
-
-      <nav className="relative z-10 flex justify-center bg-black/70 backdrop-blur-xl p-4 border-b border-black/40">
-        {/* your nav items here */}
-      </nav>
+    <div>
+      <Link
+        className={`hover:text-amber-600 font-semibold ${
+          genre === param
+            ? 'underline underline-offset-8 decoration-4 decoration-amber-500 rounded-lg'
+            : ''
+        }`}
+        href={`/?genre=${param}`}
+      >
+        {title}
+      </Link>
     </div>
   );
 }
