@@ -10,38 +10,15 @@ This project is a **Movie App inspired by IMDB**, built using the latest technol
 
 ## 🚧 Project Status
 
-> ⚠️ **This project is currently under development.**  
-> Features and UI are being actively built and refined.
+> ⚠️ This repo represents an **earlier, in-progress version** of the app.  
+> A completed, cleaner build is available here: [imdb-next](https://github.com/adithyasd10/imdb-next.git)
+
 
 ### 🔥 Preview Screenshots
 
 ![IMDB Clone Preview](https://github.com/adithyasd10/shadcn-nextjs-starter/blob/main/public/Imdb-clone.png)
 
 ![IMDB Clone Preview 2](https://github.com/adithyasd10/shadcn-nextjs-starter/blob/main/public/Imdb-clone2.png)
-
-![IMDB Clone Preview 3](https://github.com/adithyasd10/shadcn-nextjs-starter/blob/main/public/Imdb-clone3.png)
-
----
-
-## 📚 About This Project
-
-I’m building this app as part of my learning journey in:
-
-✅ Next.js 14’s new features like the App Router and layouts  
-✅ ShadCN UI — studying how to integrate elegant components and customize them for unique designs  
-✅ Tailwind CSS utility classes for responsive, dark-themed UI  
-✅ Building a real-world app structure similar to IMDB, including:
-
-- Dynamic routing for movie details
-- Review pages
-- Navigation menus
-- Progressive blurs and glassmorphism effects
-- Dark theme layouts
-- Responsive design for mobile and desktop
-
-This project is designed for **beginners** wanting to learn modern React and Next.js development with real, practical examples.
-
----
 
 ## 🚀 Getting Started
 
